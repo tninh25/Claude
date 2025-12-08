@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "selected_news": [
+    {
+      "rank": 1,
+      "title": "Material Design 3 - Google's latest open source design system",
+      "url": "https://m3.material.io/",
+      "images": [],
+      "content_preview": "[ Skip to main content ](https://m3.material.io/#main_content)\np"
+    }
+  ],
+  "article_outline": [
+    {
+      "id": "h1-1",
+      "level": 1,
+      "title": "Hướng dẫn thiết kế website chuyên nghiệp năm 2024",
+      "order": 1
+    },
+    {
+      "id": "h2-1",
+      "level": 2,
+      "title": "Tổng quan về thiết kế website chuyên nghiệp năm 2024",
+      "order": 2
+    },
+    {
+      "id": "h2-2",
+      "level": 2,
+      "title": "Các nguyên tắc thiết kế website hiện đại",
+      "order": 3
+    },
+    {
+      "id": "h3-1",
+      "level": 3,
+      "title": "Ứng dụng hệ thống giao diện Material Design 3",
+      "order": 4
+    },
+    {
+      "id": "h3-2",
+      "level": 3,
+      "title": "Chú trọng UI/UX và cảm xúc người dùng",
+      "order": 5
+    },
+    {
+      "id": "h3-3",
+      "level": 3,
+      "title": "Thiết kế web responsive & tối ưu SEO",
+      "order": 6
+    },
+    {
+      "id": "h2-3",
+      "level": 2,
+      "title": "Các công cụ và tài nguyên đề xuất",
+      "order": 7
+    },
+    {
+      "id": "h2-4",
+      "level": 2,
+      "title": "Kết luận và khuyến nghị cho năm 2024",
+      "order": 8
+    }
+  ],
+  "article_title": "Hướng dẫn thiết kế website chuyên nghiệp năm 2024",
+  "main_keyword": "Thiết kế website",
+  "secondary_keywords": [
+    "web responsive",
+    "UI/UX",
+    "tối ưu SEO"
+  ],
+  "total_analyzed": 3
+}

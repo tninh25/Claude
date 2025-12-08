@@ -1,0 +1,49 @@
+# core/score_yaml/scoring_rules.yaml
+
+# Quy tắc chấm điểm SEO
+
+default_thresholds:
+  # Số lượng từ tối thiểu và tối đa cho bài viết
+  word_count:
+    min: 900
+    optimal_min: 1500
+    optimal_max: 3000
+    max: 5000
+  
+  # Mật độ từ khóa tối ưu và ngưỡng nhồi nhét từ khóa
+  keyword_density:
+    min: 0.5  # %
+    optimal: 1.5
+    max: 3.0
+    stuffing_threshold: 4.0   # % Ngưỡng nhồi nhét từ khóa
+  
+  # Số từ tối đa và tối ưu trong một đoạn văn
+  paragraph:
+    max_words: 150
+    optimal_words: 80
+  
+  # Số từ tối đa và tối ưu trong một câu
+  sentence:
+    max_words: 25
+    optimal_words: 15
+  
+  # Độ dài tiêu đề bài viết
+  title:
+    min_chars: 30
+    max_chars: 60
+    optimal_min: 50
+    optimal_max: 60
+  
+  # Độ dài mô tả meta
+  meta_description:
+    min_chars: 120
+    max_chars: 160
+    optimal_min: 140
+    optimal_max: 160
+  
+  # Số lượng tiêu đề H1, H2, H3
+  headings:
+    h1_count: 1
+    h2_min: 3
+    h2_optimal: 5
+    h3_max: 15

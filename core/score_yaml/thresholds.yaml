@@ -1,0 +1,29 @@
+# core/score_yaml/thresholds.yaml
+
+# Ngưỡng động theo ngành (CẦN MỞ RỘNG)
+
+industry_thresholds:
+  # Blog tin tức
+  blog_tin_tuc:
+    word_count:
+      min: 800
+      optimal_min: 1000
+      optimal_max: 2000
+  
+  # Thương mại điện tử
+  ecommerce:
+    word_count:
+      min: 600
+      optimal_min: 800
+      optimal_max: 1500
+    keyword_density:
+      optimal: 2.0
+  
+  # Nội dung dài
+  long_form_content:
+    word_count:
+      min: 2500
+      optimal_min: 3000
+      optimal_max: 5000
+    paragraph:
+      max_words: 200

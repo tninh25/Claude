@@ -1,0 +1,46 @@
+{
+  "top_news": [
+    {
+      "rank": 1,
+      "title": "Thiết Kế Website Chuyên Nghiệp, Trọn Gói, Chuẩn SEO TPHCM",
+      "url": "https://mona.media/thiet-ke-website-tai-hcm/",
+      "images": [
+        "https://mona.media/template/assets/hq-images/mega-menu-new/mega-menu-new-content-5.jpg",
+        "https://mona.media/template/assets/hq-images/mega-menu-new/mega-menu-new-content-2-2-new.jpg",
+        "https://mona.media/template/assets/hq-images/mega-menu-new/mega-menu-new-content-5.avif"
+      ],
+      "content_preview": "Mona Media cung cấp dịch vụ thiết kế website chuyên nghiệp với quy trình chuẩn: nghiên cứu ngành hàng, tạo concept AI, xử lý hình ảnh chuyên dụng, sử dụng đa công nghệ (CMS, Framework, ngôn ngữ lập trình). Website được tối ưu chuẩn SEO, tốc độ tải nhanh, có quy trình testing nghiêm ngặt (Unit Test, Automation Test, Manual Test) đảm bảo chất lượng. Phù hợp cho mọi ngành nghề với hơn 9,689 dự án thành công."
+    },
+    {
+      "rank": 2,
+      "title": "Thiết Kế Website Chuyên Nghiệp Uy Tín Hỗ Trợ Tận Tâm",
+      "url": "https://webhd.vn/thiet-ke-website/",
+      "images": [
+        "https://webhd.vn/wp-content/uploads/2025/10/du-an-2-1024x842.jpg",
+        "https://webhd.vn/wp-content/uploads/2023/11/Group-7324-1.png",
+        "https://webhd.vn/wp-content/uploads/2025/08/hinh-chup-home-HD-png-Copy-min-1.png"
+      ],
+      "content_preview": "HD Agency là công ty thiết kế website chuyên nghiệp chuẩn SEO trọn gói, hỗ trợ trọn đời. Có các gói dịch vụ: Start (5.9 triệu), Plus (8.9 triệu), Pro (13.9 triệu), Business (23.9 triệu) với tính năng khác nhau. Đã thực hiện 3600+ dự án, phục vụ 3000+ khách hàng. Cung cấp dịch vụ website công ty, cá nhân, bán hàng, tin tức với thời gian hoàn thành khoảng 14 ngày."
+    },
+    {
+      "rank": 3,
+      "title": "Material Design 3 - Google's latest open source design system",
+      "url": "https://m3.material.io/",
+      "images": [],
+      "content_preview": "Material Design 3 (M3) là hệ thống thiết kế mã nguồn mở của Google với tính năng M3 Expressive: thiết kế với cảm xúc thông qua màu sắc sống động, chuyển động trực quan, component thích ứng, typography linh hoạt, hình dạng tương phản. Cung cấp các công cụ như Figma M3 Design Kit, hệ thống chuyển động vật lý, thư viện hình dạng mở rộng với 35 hình dạng có chuyển động morph."
+    }
+  ],
+  "target_language": "Tiếng Việt",
+  "config": {
+    "bot_id": "GPT-4.1",
+    "article_length": "2000-2500",
+    "tone": "Chuyên Nghiệp",
+    "article_type": "Blog",
+    "language": "Tiếng Việt",
+    "custom_instructions": "Bài viết cần tập trung vào thực tiễn, có ví dụ cụ thể từ các công ty thiết kế website tại Việt Nam. Sử dụng data từ các nguồn tham khảo một cách tự nhiên, không copy nguyên văn."
+  },
+  "title": "Hướng dẫn thiết kế website chuyên nghiệp năm 2024",
+  "outline": "<h1>Hướng dẫn thiết kế website chuyên nghiệp năm 2024</h1>\n<h2>Giới thiệu về thiết kế website chuyên nghiệp năm 2024</h2>\n<h2>Các yếu tố quan trọng trong thiết kế website</h2>\n<h3>Giao diện đẹp – Đáp ứng đa thiết bị (Web Responsive)</h3>\n<h3>Trải nghiệm người dùng (UI/UX)</h3>\n<h3>Tối ưu tốc độ tải trang và SEO</h3>\n<h2>Quy trình thiết kế website chuyên nghiệp</h2>\n<h3>Khảo sát và phân tích yêu cầu</h3>\n<h3>Chọn hệ thống thiết kế hiện đại (Material Design)</h3>\n<h3>Lập trình và triển khai</h3>\n<h2>Xu hướng thiết kế website năm 2024</h2>\n<h2>Kết luận và khuyến nghị dành cho doanh nghiệp</h2>",
+  "main_keyword": "thiết kế website",
+  "secondary_keywords": ["web responsive", "UI/UX", "tối ưu SEO"]
+}

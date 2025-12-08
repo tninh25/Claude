@@ -1,0 +1,50 @@
+# core/score_yaml/weights.yaml
+
+# Trọng số cho từng tiêu chí (tổng = 100)
+scoring_weights:
+  structure: 20             # Cấu trúc H1-H6, outline
+  keyword_optimization: 25  # Keyword placement, density
+  readability: 20           # Độ dài câu, đoạn văn
+  technical_seo: 15         # Alt text, links, meta tags
+  content_quality: 20       # Uniqueness, depth, coverage
+
+# Mức độ nghiêm trọng
+issue_severity:
+  critical:
+    - missing_h1
+    - multiple_h1
+    - keyword_stuffing
+    - title_too_short
+    - title_too_long
+  
+  warning:
+    - few_h2
+    - paragraph_too_long
+    - sentence_too_long
+    - keyword_not_in_title
+  
+  info:
+    - missing_alt
+    - no_internal_links
+    - suboptimal_keyword_density    # mật độ từ khóa không tối ưu
+  
+# Điểm số từng issue (âm điểm)
+issue_penalties:
+  missing_h1: -10
+  multiple_h1: -8
+  keyword_stuffing: -15
+  few_h2: -5
+  paragraph_too_long: -2
+  sentence_too_long: -1
+  missing_alt: -1
+  no_internal_links: -3
+  no_external_links: -2
+
+# Điểm thưởng
+bonus_points:
+  optimal_word_count: 10
+  keyword_in_first_paragraph: 5
+  good_heading_structure: 5
+  all_images_have_alt: 3
+  good_internal_linking: 5
+  lsi_keywords_present: 8

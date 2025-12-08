@@ -1,0 +1,380 @@
+Folder PATH listing for volume DATA
+Volume serial number is 6AB2-C578
+D:.
+|   a.json
+|   config.yaml
+|   kq.json
+|   main.py
+|   structure.txt
+|   token.json
+|   
++---api
+|   \---v1
+|       |   ai.py
+|       |   crawl.py
+|       |   prompt.py
+|       |   ui.py
+|       |   __init__.py
+|       |   
+|       \---__pycache__
+|               ai.cpython-310.pyc
+|               ai.cpython-311.pyc
+|               crawl.cpython-310.pyc
+|               crawl.cpython-311.pyc
+|               prompt.cpython-310.pyc
+|               prompt.cpython-311.pyc
+|               ui.cpython-310.pyc
+|               ui.cpython-311.pyc
+|               __init__.cpython-310.pyc
+|               __init__.cpython-311.pyc
+|               
++---clients
+|   |   ai_client.py
+|   |   news_client.py
+|   |   wordpress_client.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           ai_client.cpython-310.pyc
+|           ai_client.cpython-311.pyc
+|           ai_client.cpython-39.pyc
+|           news_client.cpython-310.pyc
+|           news_client.cpython-311.pyc
+|           wordpress_client.cpython-310.pyc
+|           __init__.cpython-310.pyc
+|           __init__.cpython-311.pyc
+|           __init__.cpython-39.pyc
+|           
++---core
+|   |   __init__.py
+|   |   
+|   +---ai_prompt
+|   |   |   content_generation_prompt.py
+|   |   |   content_review_prompt.py
+|   |   |   news_filtering_prompt.py
+|   |   |   title_generation_prompt.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           content_generation_prompt.cpython-310.pyc
+|   |           news_filtering_prompt.cpython-310.pyc
+|   |           title_generation_prompt.cpython-310.pyc
+|   |           __init__.cpython-310.pyc
+|   |           
+|   +---score_yaml
+|   |       scoring_rules.yaml
+|   |       thresholds.yaml
+|   |       weights.yaml
+|   |       __init__.py
+|   |       
+|   \---__pycache__
+|           config_loader.cpython-310.pyc
+|           config_loader.cpython-311.pyc
+|           content_generation_prompt.cpython-310.pyc
+|           content_generation_prompt.cpython-311.pyc
+|           content_prompt.cpython-311.pyc
+|           load_config.cpython-311.pyc
+|           load_config.cpython-39.pyc
+|           news_filtering_prompt.cpython-310.pyc
+|           news_filtering_prompt.cpython-311.pyc
+|           title_generation_prompt.cpython-310.pyc
+|           title_generation_prompt.cpython-311.pyc
+|           __init__.cpython-310.pyc
+|           __init__.cpython-311.pyc
+|           __init__.cpython-39.pyc
+|           
++---documents
+|       AIS.docx
+|       Y TU?NG T?NG QUAN H? TH?NG SEO CHECKER.docx
+|       
++---facebook
+|   |   .env
+|   |   main.py
+|   |   
+|   +---api
+|   |   |   dependencies.py
+|   |   |   __init__.py
+|   |   |   
+|   |   +---routes
+|   |   |   |   facebook.py
+|   |   |   |   __init__.py
+|   |   |   |   
+|   |   |   \---__pycache__
+|   |   |           facebook.cpython-311.pyc
+|   |   |           __init__.cpython-311.pyc
+|   |   |           
+|   |   \---__pycache__
+|   |           dependencies.cpython-311.pyc
+|   |           __init__.cpython-311.pyc
+|   |           
+|   +---models
+|   |   |   facebook.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           facebook.cpython-311.pyc
+|   |           __init__.cpython-311.pyc
+|   |           
+|   +---services
+|   |   |   facebook_service.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           facebook_service.cpython-311.pyc
+|   |           __init__.cpython-311.pyc
+|   |           
+|   +---test
+|   |       .env
+|   |       config.yaml
+|   |       main.py
+|   |       token.json
+|   |       
+|   \---__pycache__
+|           main.cpython-311.pyc
+|           
++---middleware
+|       __init__.py
+|       
++---models
+|   |   __init__.py
+|   |   
+|   +---crawl
+|   |   |   crawler_schemas.py
+|   |   |   images_schemas.py
+|   |   |   news_schemas.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           crawler_schemas.cpython-310.pyc
+|   |           images_schemas.cpython-310.pyc
+|   |           news_schemas.cpython-310.pyc
+|   |           __init__.cpython-310.pyc
+|   |           
+|   +---llm
+|   |   |   content_generation_schemas.py
+|   |   |   news_filtering_schemas.py
+|   |   |   prompt_schemas.py
+|   |   |   title_generation_schemas.py
+|   |   |   utils_schemas.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           content_generation_schemas.cpython-310.pyc
+|   |           news_filtering_schemas.cpython-310.pyc
+|   |           prompt_schemas.cpython-310.pyc
+|   |           title_generation_schemas.cpython-310.pyc
+|   |           utils_schemas.cpython-310.pyc
+|   |           __init__.cpython-310.pyc
+|   |           
+|   +---ui
+|   |   |   ui_config.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           ui_config.cpython-310.pyc
+|   |           __init__.cpython-310.pyc
+|   |           
+|   +---wordpress
+|   |   |   post.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           post.cpython-310.pyc
+|   |           __init__.cpython-310.pyc
+|   |           
+|   \---__pycache__
+|           content_generation_schemas.cpython-310.pyc
+|           content_generation_schemas.cpython-311.pyc
+|           content_schemas.cpython-311.pyc
+|           crawler_schemas.cpython-310.pyc
+|           crawler_schemas.cpython-311.pyc
+|           images_schemas.cpython-310.pyc
+|           images_schemas.cpython-311.pyc
+|           news_filtering_schemas.cpython-310.pyc
+|           news_filtering_schemas.cpython-311.pyc
+|           news_schemas.cpython-310.pyc
+|           news_schemas.cpython-311.pyc
+|           prompt_schemas.cpython-310.pyc
+|           prompt_schemas.cpython-311.pyc
+|           title_generation_schemas.cpython-310.pyc
+|           title_generation_schemas.cpython-311.pyc
+|           ui_config.cpython-310.pyc
+|           ui_config.cpython-311.pyc
+|           utils_schemas.cpython-310.pyc
+|           utils_schemas.cpython-311.pyc
+|           __init__.cpython-310.pyc
+|           __init__.cpython-311.pyc
+|           
++---results
+|       analysis_result.json
+|       seo_analysis_result.json
+|       
++---services
+|   |   __init__.py
+|   |   
+|   +---crawl
+|   |   |   article_crawler_service.py
+|   |   |   crawler_config.py
+|   |   |   images_search_service.py
+|   |   |   image_cleaner.py
+|   |   |   news_search_service.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           article_crawler_service.cpython-310.pyc
+|   |           article_crawler_service.cpython-311.pyc
+|   |           crawler_config.cpython-310.pyc
+|   |           crawler_config.cpython-311.pyc
+|   |           images_search_service.cpython-310.pyc
+|   |           images_search_service.cpython-311.pyc
+|   |           image_cleaner.cpython-310.pyc
+|   |           image_cleaner.cpython-311.pyc
+|   |           news_search_service.cpython-310.pyc
+|   |           news_search_service.cpython-311.pyc
+|   |           __init__.cpython-310.pyc
+|   |           __init__.cpython-311.pyc
+|   |           
+|   +---llm
+|   |   |   content_agent_service.py
+|   |   |   content_generation_service.py
+|   |   |   content_review_service.py
+|   |   |   content_rewriting_service.py
+|   |   |   news_filtering_service.py
+|   |   |   title_generation_service.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           content_agent_service.cpython-310.pyc
+|   |           content_generation_service.cpython-310.pyc
+|   |           content_generation_service.cpython-311.pyc
+|   |           content_review_service.cpython-310.pyc
+|   |           news_filtering_service.cpython-310.pyc
+|   |           news_filtering_service.cpython-311.pyc
+|   |           title_generation_service.cpython-310.pyc
+|   |           title_generation_service.cpython-311.pyc
+|   |           __init__.cpython-310.pyc
+|   |           __init__.cpython-311.pyc
+|   |           
+|   +---prompt
+|   |   |   prompt_service.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           prompt_service.cpython-310.pyc
+|   |           prompt_service.cpython-311.pyc
+|   |           __init__.cpython-310.pyc
+|   |           __init__.cpython-311.pyc
+|   |           
+|   +---seo_checker
+|   |   |   main.py
+|   |   |   __init__.py
+|   |   |   
+|   |   +---analyzers
+|   |   |   |   content_quality_analyzer.py
+|   |   |   |   keyword_analyzer.py
+|   |   |   |   readability_analyzer.py
+|   |   |   |   structure_analyzer.py
+|   |   |   |   technical_analyzer.py
+|   |   |   |   __init__.py
+|   |   |   |   
+|   |   |   \---__pycache__
+|   |   |           content_quality_analyzer.cpython-310.pyc
+|   |   |           keyword_analyzer.cpython-310.pyc
+|   |   |           readability_analyzer.cpython-310.pyc
+|   |   |           structure_analyzer.cpython-310.pyc
+|   |   |           technical_analyzer.cpython-310.pyc
+|   |   |           __init__.cpython-310.pyc
+|   |   |           
+|   |   +---config
+|   |   |   |   config_manager.py
+|   |   |   |   
+|   |   |   \---__pycache__
+|   |   |           config_manager.cpython-310.pyc
+|   |   |           
+|   |   +---parser
+|   |   |   |   html_parser.py
+|   |   |   |   __init__.py
+|   |   |   |   
+|   |   |   \---__pycache__
+|   |   |           html_parser.cpython-310.pyc
+|   |   |           __init__.cpython-310.pyc
+|   |   |           
+|   |   +---scoring
+|   |   |   |   recommendation.py
+|   |   |   |   score_calculator.py
+|   |   |   |   __init__.py
+|   |   |   |   
+|   |   |   \---__pycache__
+|   |   |           recommendation.cpython-310.pyc
+|   |   |           score_calculator.cpython-310.pyc
+|   |   |           __init__.cpython-310.pyc
+|   |   |           
+|   |   \---__pycache__
+|   |           main.cpython-310.pyc
+|   |           __init__.cpython-310.pyc
+|   |           
+|   +---ui_config
+|   |   |   config.py
+|   |   |   config_service.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           config.cpython-310.pyc
+|   |           config.cpython-311.pyc
+|   |           config_service.cpython-310.pyc
+|   |           config_service.cpython-311.pyc
+|   |           __init__.cpython-310.pyc
+|   |           __init__.cpython-311.pyc
+|   |           
+|   +---wordpress
+|   |   |   post.py
+|   |   |   test.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           post.cpython-310.pyc
+|   |           __init__.cpython-310.pyc
+|   |           
+|   \---__pycache__
+|           content_service.cpython-311.pyc
+|           __init__.cpython-310.pyc
+|           __init__.cpython-311.pyc
+|           
++---test
+|   |   generate_image.py
+|   |   
+|   +---agent
+|   |       analysis_result.json
+|   |       article.html
+|   |       articles.json
+|   |       parse_html.py
+|   |       scorer.py
+|   |       seo_scoring_service.py
+|   |       test.py
+|   |       
+|   \---sitemap
+|           sitemap.py
+|           
++---utils
+|   |   ai_token.py
+|   |   config_loader.py
+|   |   conversation_id.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           ai_mapper.cpython-311.pyc
+|           ai_token.cpython-310.pyc
+|           ai_token.cpython-311.pyc
+|           ai_token.cpython-39.pyc
+|           bot_mapper.cpython-311.pyc
+|           config_loader.cpython-310.pyc
+|           conversation_id.cpython-310.pyc
+|           conversation_id.cpython-311.pyc
+|           __init__.cpython-310.pyc
+|           __init__.cpython-311.pyc
+|           __init__.cpython-39.pyc
+|           
+\---__pycache__
+        main.cpython-310.pyc
+        main.cpython-311.pyc
+        

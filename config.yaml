@@ -1,0 +1,44 @@
+app:
+  name: "Marketing Platform API"
+  version: "1.0.0"
+  debug: false  
+
+server:
+  host: "0.0.0.0"
+  port: 8080
+
+ai_client:
+  base_url: "https://lumineai.pic.net.tw"
+  user_id: "ngocninh"
+  password: "ngocninh@VietSon150"
+  company_id: "99990013"
+
+search:
+  google_api_key: "AIzaSyB_gtkcaIw6nFxgGtkbrP5wbaIo_WW9ayc"
+  search_engine_id: "51d6cfdece6a4404d"
+  search_url: "https://www.googleapis.com/customsearch/v1"
+
+crawler:
+  cache_mode: "BYPASS"
+  content_threshold: 0.48
+  max_content_length: 3000
+  max_images: 10
+
+api:
+  timeout: 30
+  max_concurrent_requests: 10
+
+botconfig:
+  vietname-ocr-vlm: "bot-2004"
+  gpt-4.1: "bot-2005"
+  gemini-2.5-flash: "bot-2006"
+
+seo_checker:
+  config_dir: "core/score_yaml"
+  output_dir: "results"
+  
+wordpress:
+  api_url: "https://rosacomputer.vn/blog"
+  username: "admin"
+  application_password: "7DnQ D168 cI9n 5FSw T5KN d3LD"
+

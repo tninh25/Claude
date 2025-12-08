@@ -1,0 +1,19 @@
+{
+  "articles": [
+    {
+      "url": "https://openai.com/vi-VN/index/introducing-gpt-5/",
+      "title": "Xin giới thiệu GPT-5 | OpenAI",
+      "snippet": "Aug 7, 2025 ... Mức độ suy luận có thể khác biệt trong ChatGPT, trong đó Cao thể hiện mức cận trên những gì một người dùng có thể trải nghiệm khi sử dụng mô ..."
+    },
+    {
+      "url": "https://www.thegioididong.com/tin-tuc/kham-pha-gpt-5-phien-ban-chatgpt-manh-nhat-thong-minh-nhat-tu-truoc-toi-nay-1581368",
+      "title": "Tất tần tật về GPT-5: Phiên bản ChatGPT mạnh nhất từ trước tới nay",
+      "snippet": "API cho lập trình viên: Có ba kích thước – gpt-5, gpt-5-mini, gpt-5-nano – với mức giá từ 1,25 USD/1 triệu token đầu vào. Các tính năng mới trên ChatGPT. GPT-5 ..."
+    },
+    {
+      "url": "https://www.phucanh.vn/chatgpt-5.0-co-gi-dac-biet-so-voi-gpt-4.0-bao-gio-thi-ra-mat-chinh-thuc.html",
+      "title": "ChatGPT 5.0 có gì đặc biệt so với GPT 4.0? Bao giờ thì ra mắt chính ...",
+      "snippet": "ChatGPT 5.0 có gì đặc biệt so với GPT 4.0? Bao giờ thì ra mắt chính thức? · Tư duy logic nâng cao · Đa phương thức mạnh mẽ · Cửa sổ ngữ cảnh lớn hơn · Cá nhân hóa ..."
+    }
+  ]
+}

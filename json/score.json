@@ -1,0 +1,374 @@
+{
+  "score_breakdown": {
+    "structure": 20,
+    "keyword_optimization": 0,
+    "readability": 15,
+    "technical_seo": 12,
+    "content_quality": 20,
+    "bonus": 25,
+    "total": 92,
+    "grade": "A+"
+  },
+  "issues": {
+    "critical": [],
+    "warning": [
+      {
+        "type": "keyword_density_too_low",
+        "detail": "Keyword 'chatgpt 5.0 có gì hot' xuất hiện quá ít (0.35%) - dưới ngưỡng tối thiểu 0.5%",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Tăng tần suất xuất hiện lên khoảng 1.5%, đảm bảo keyword xuất hiện tự nhiên"
+      },
+      {
+        "type": "keyword_density_too_low",
+        "detail": "Keyword 'GPT-5' xuất hiện quá ít (0.00%) - dưới ngưỡng tối thiểu 0.5%",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Tăng tần suất xuất hiện lên khoảng 1.5%, đảm bảo keyword xuất hiện tự nhiên"
+      },
+      {
+        "type": "keyword_not_in_title",
+        "detail": "Keyword 'GPT-5' không có trong tiêu đề bài viết",
+        "severity": "warning",
+        "penalty": 5,
+        "recommendation": "Thêm keyword chính vào title tag, ưu tiên đứng đầu title"
+      },
+      {
+        "type": "keyword_not_in_meta",
+        "detail": "Keyword 'GPT-5' không có trong meta description",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Thêm keyword vào meta description để tăng CTR từ kết quả tìm kiếm"
+      },
+      {
+        "type": "keyword_not_in_h1",
+        "detail": "Keyword 'GPT-5' không có trong thẻ H1 chính",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Đảm bảo keyword chính xuất hiện trong H1 của bài viết"
+      },
+      {
+        "type": "keyword_density_too_low",
+        "detail": "Keyword 'OpenAI' xuất hiện quá ít (0.42%) - dưới ngưỡng tối thiểu 0.5%",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Tăng tần suất xuất hiện lên khoảng 1.5%, đảm bảo keyword xuất hiện tự nhiên"
+      },
+      {
+        "type": "keyword_not_in_title",
+        "detail": "Keyword 'OpenAI' không có trong tiêu đề bài viết",
+        "severity": "warning",
+        "penalty": 5,
+        "recommendation": "Thêm keyword chính vào title tag, ưu tiên đứng đầu title"
+      },
+      {
+        "type": "keyword_not_in_meta",
+        "detail": "Keyword 'OpenAI' không có trong meta description",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Thêm keyword vào meta description để tăng CTR từ kết quả tìm kiếm"
+      },
+      {
+        "type": "keyword_not_in_h1",
+        "detail": "Keyword 'OpenAI' không có trong thẻ H1 chính",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Đảm bảo keyword chính xuất hiện trong H1 của bài viết"
+      },
+      {
+        "type": "keyword_density_too_low",
+        "detail": "Keyword 'trí tuệ nhân tạo' xuất hiện quá ít (0.28%) - dưới ngưỡng tối thiểu 0.5%",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Tăng tần suất xuất hiện lên khoảng 1.5%, đảm bảo keyword xuất hiện tự nhiên"
+      },
+      {
+        "type": "keyword_not_in_title",
+        "detail": "Keyword 'trí tuệ nhân tạo' không có trong tiêu đề bài viết",
+        "severity": "warning",
+        "penalty": 5,
+        "recommendation": "Thêm keyword chính vào title tag, ưu tiên đứng đầu title"
+      },
+      {
+        "type": "keyword_not_in_meta",
+        "detail": "Keyword 'trí tuệ nhân tạo' không có trong meta description",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Thêm keyword vào meta description để tăng CTR từ kết quả tìm kiếm"
+      },
+      {
+        "type": "keyword_not_in_h1",
+        "detail": "Keyword 'AI' không có trong thẻ H1 chính",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Đảm bảo keyword chính xuất hiện trong H1 của bài viết"
+      },
+      {
+        "type": "keyword_density_too_low",
+        "detail": "Keyword 'mô hình ngôn ngữ lớn' xuất hiện quá ít (0.07%) - dưới ngưỡng tối thiểu 0.5%",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Tăng tần suất xuất hiện lên khoảng 1.5%, đảm bảo keyword xuất hiện tự nhiên"
+      },
+      {
+        "type": "keyword_not_in_title",
+        "detail": "Keyword 'mô hình ngôn ngữ lớn' không có trong tiêu đề bài viết",
+        "severity": "warning",
+        "penalty": 5,
+        "recommendation": "Thêm keyword chính vào title tag, ưu tiên đứng đầu title"
+      },
+      {
+        "type": "keyword_not_in_meta",
+        "detail": "Keyword 'mô hình ngôn ngữ lớn' không có trong meta description",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Thêm keyword vào meta description để tăng CTR từ kết quả tìm kiếm"
+      },
+      {
+        "type": "keyword_not_in_h1",
+        "detail": "Keyword 'mô hình ngôn ngữ lớn' không có trong thẻ H1 chính",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Đảm bảo keyword chính xuất hiện trong H1 của bài viết"
+      },
+      {
+        "type": "keyword_density_too_low",
+        "detail": "Keyword 'multimodal AI' xuất hiện quá ít (0.07%) - dưới ngưỡng tối thiểu 0.5%",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Tăng tần suất xuất hiện lên khoảng 1.5%, đảm bảo keyword xuất hiện tự nhiên"
+      },
+      {
+        "type": "keyword_not_in_title",
+        "detail": "Keyword 'multimodal AI' không có trong tiêu đề bài viết",
+        "severity": "warning",
+        "penalty": 5,
+        "recommendation": "Thêm keyword chính vào title tag, ưu tiên đứng đầu title"
+      },
+      {
+        "type": "keyword_not_in_meta",
+        "detail": "Keyword 'multimodal AI' không có trong meta description",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Thêm keyword vào meta description để tăng CTR từ kết quả tìm kiếm"
+      },
+      {
+        "type": "keyword_not_in_h1",
+        "detail": "Keyword 'multimodal AI' không có trong thẻ H1 chính",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Đảm bảo keyword chính xuất hiện trong H1 của bài viết"
+      },
+      {
+        "type": "keyword_density_too_low",
+        "detail": "Keyword 'AI Agent' xuất hiện quá ít (0.28%) - dưới ngưỡng tối thiểu 0.5%",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Tăng tần suất xuất hiện lên khoảng 1.5%, đảm bảo keyword xuất hiện tự nhiên"
+      },
+      {
+        "type": "keyword_not_in_title",
+        "detail": "Keyword 'AI Agent' không có trong tiêu đề bài viết",
+        "severity": "warning",
+        "penalty": 5,
+        "recommendation": "Thêm keyword chính vào title tag, ưu tiên đứng đầu title"
+      },
+      {
+        "type": "keyword_not_in_meta",
+        "detail": "Keyword 'AI Agent' không có trong meta description",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Thêm keyword vào meta description để tăng CTR từ kết quả tìm kiếm"
+      },
+      {
+        "type": "keyword_not_in_h1",
+        "detail": "Keyword 'AI Agent' không có trong thẻ H1 chính",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Đảm bảo keyword chính xuất hiện trong H1 của bài viết"
+      },
+      {
+        "type": "many_long_sentences",
+        "detail": "Có 24 câu dài hơn 25 từ",
+        "severity": "warning",
+        "penalty": 5,
+        "recommendation": "Viết câu ngắn gọn hơn để dễ đọc"
+      },
+      {
+        "type": "no_internal_links",
+        "detail": "Không có internal links",
+        "severity": "warning",
+        "penalty": 3,
+        "recommendation": "Thêm 3-5 internal links liên quan"
+      }
+    ],
+    "info": [
+      {
+        "type": "keyword_not_in_first_paragraph",
+        "detail": "Keyword 'chatgpt 5.0 có gì hot' không xuất hiện trong đoạn văn đầu tiên",
+        "severity": "info",
+        "penalty": 2,
+        "recommendation": "Nhắc đến keyword chính trong 100 từ đầu tiên để Google hiểu chủ đề nhanh"
+      },
+      {
+        "type": "keyword_not_in_first_paragraph",
+        "detail": "Keyword 'GPT-5' không xuất hiện trong đoạn văn đầu tiên",
+        "severity": "info",
+        "penalty": 2,
+        "recommendation": "Nhắc đến keyword chính trong 100 từ đầu tiên để Google hiểu chủ đề nhanh"
+      },
+      {
+        "type": "keyword_not_in_h2",
+        "detail": "Keyword 'GPT-5' không xuất hiện trong bất kỳ thẻ H2 nào",
+        "severity": "info",
+        "penalty": 1,
+        "recommendation": "Sử dụng keyword trong ít nhất 1 tiêu đề phụ (H2) để củng cố chủ đề"
+      },
+      {
+        "type": "keyword_not_in_h2",
+        "detail": "Keyword 'OpenAI' không xuất hiện trong bất kỳ thẻ H2 nào",
+        "severity": "info",
+        "penalty": 1,
+        "recommendation": "Sử dụng keyword trong ít nhất 1 tiêu đề phụ (H2) để củng cố chủ đề"
+      },
+      {
+        "type": "keyword_not_in_h2",
+        "detail": "Keyword 'trí tuệ nhân tạo' không xuất hiện trong bất kỳ thẻ H2 nào",
+        "severity": "info",
+        "penalty": 1,
+        "recommendation": "Sử dụng keyword trong ít nhất 1 tiêu đề phụ (H2) để củng cố chủ đề"
+      },
+      {
+        "type": "keyword_not_in_h2",
+        "detail": "Keyword 'mô hình ngôn ngữ lớn' không xuất hiện trong bất kỳ thẻ H2 nào",
+        "severity": "info",
+        "penalty": 1,
+        "recommendation": "Sử dụng keyword trong ít nhất 1 tiêu đề phụ (H2) để củng cố chủ đề"
+      },
+      {
+        "type": "keyword_not_in_first_paragraph",
+        "detail": "Keyword 'multimodal AI' không xuất hiện trong đoạn văn đầu tiên",
+        "severity": "info",
+        "penalty": 2,
+        "recommendation": "Nhắc đến keyword chính trong 100 từ đầu tiên để Google hiểu chủ đề nhanh"
+      },
+      {
+        "type": "keyword_not_in_h2",
+        "detail": "Keyword 'multimodal AI' không xuất hiện trong bất kỳ thẻ H2 nào",
+        "severity": "info",
+        "penalty": 1,
+        "recommendation": "Sử dụng keyword trong ít nhất 1 tiêu đề phụ (H2) để củng cố chủ đề"
+      },
+      {
+        "type": "keyword_not_in_first_paragraph",
+        "detail": "Keyword 'AI Agent' không xuất hiện trong đoạn văn đầu tiên",
+        "severity": "info",
+        "penalty": 2,
+        "recommendation": "Nhắc đến keyword chính trong 100 từ đầu tiên để Google hiểu chủ đề nhanh"
+      },
+      {
+        "type": "keyword_not_in_h2",
+        "detail": "Keyword 'AI Agent' không xuất hiện trong bất kỳ thẻ H2 nào",
+        "severity": "info",
+        "penalty": 1,
+        "recommendation": "Sử dụng keyword trong ít nhất 1 tiêu đề phụ (H2) để củng cố chủ đề"
+      }
+    ]
+  },
+  "bonuses": [
+    {
+      "type": "good_heading_structure",
+      "points": 5
+    },
+    {
+      "type": "keyword_in_first_para_OpenAI",
+      "points": 5
+    },
+    {
+      "type": "keyword_in_first_para_trí tuệ nhân tạo",
+      "points": 5
+    },
+    {
+      "type": "keyword_in_first_para_AI",
+      "points": 5
+    },
+    {
+      "type": "keyword_in_first_para_mô hình ngôn ngữ lớn",
+      "points": 5
+    }
+  ],
+  "stats": {
+    "word_count": 1444,
+    "title_length": 57,
+    "meta_length": 160,
+    "headings": {
+      "h1": [
+        "ChatGPT 5.0 Có Gì Hot? Khám Phá Bước Tiến Vượt Bậc Của Trí Tuệ Nhân Tạo"
+      ],
+      "h2": [
+        "Giới Thiệu Tổng Quan Về ChatGPT 5.0",
+        "Những Nâng Cấp Đột Phá: ChatGPT 5.0 Có Gì Hot?",
+        "Tác Động Của ChatGPT 5.0 Đến Tương Lai",
+        "Khi Nào và Làm Sao Để Trải Nghiệm ChatGPT 5.0?"
+      ],
+      "h3": [
+        "Khả Năng Lý Luận và Giải Quyết Vấn Đề Ngang Tầm Chuyên Gia",
+        "Trí Tuệ Đa Phương Thức (Multimodal AI) Toàn Diện",
+        "Hiểu Ngữ Cảnh Sâu Sắc và Bộ Nhớ Dài Hơn",
+        "Hiệu Suất Vượt Trội và Tối Ưu Chi Phí",
+        "Chuyển Đổi Từ Chatbot Sang AI Agent"
+      ],
+      "h4": []
+    },
+    "images_count": 0,
+    "links": {
+      "internal": 0,
+      "external": 0
+    }
+  },
+  "config_used": {
+    "industry": "",
+    "thresholds": {
+      "word_count": {
+        "min": 900,
+        "optimal_min": 1500,
+        "optimal_max": 3000,
+        "max": 5000
+      },
+      "keyword_density": {
+        "min": 0.5,
+        "optimal": 1.5,
+        "max": 3,
+        "stuffing_threshold": 4
+      },
+      "paragraph": {
+        "max_words": 150,
+        "optimal_words": 80
+      },
+      "sentence": {
+        "max_words": 25,
+        "optimal_words": 15
+      },
+      "title": {
+        "min_chars": 30,
+        "max_chars": 60,
+        "optimal_min": 50,
+        "optimal_max": 60
+      },
+      "meta_description": {
+        "min_chars": 120,
+        "max_chars": 160,
+        "optimal_min": 140,
+        "optimal_max": 160
+      },
+      "headings": {
+        "h1_count": 1,
+        "h2_min": 3,
+        "h2_optimal": 5,
+        "h3_max": 15
+      }
+    }
+  },
+  "success": true,
+  "message": "Phân tích SEO thành công"
+}

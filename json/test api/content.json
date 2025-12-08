@@ -1,0 +1,110 @@
+{
+  "top_news": [
+    {
+      "rank": 1,
+      "title": "Material Design 3 - Google's latest open source design system",
+      "url": "https://m3.material.io/",
+      "images": [],
+      "content_preview": "Material Design 3 là hệ thống thiết kế mã nguồn mở mới nhất của Google, mang đến trải nghiệm giao diện hiện đại và linh hoạt cho các ứng dụng web và mobile."
+    }
+  ],
+  "target_language": "Tiếng Việt",
+  "config": {
+    "bot_id": "GPT-4.1",
+    "article_length": "1500-1800",
+    "tone": "Chuyên Nghiệp",
+    "article_type": "blog",
+    "language": "Tiếng Việt",
+    "custom_instructions": null
+  },
+  "title": "Hướng dẫn thiết kế website chuyên nghiệp năm 2024",
+  "outline": [
+    {
+      "id": "h1-1",
+      "level": 1,
+      "title": "Hướng dẫn thiết kế website chuyên nghiệp năm 2024",
+      "order": 1,
+      "config": null
+    },
+    {
+      "id": "h2-1",
+      "level": 2,
+      "title": "Tổng quan về thiết kế website chuyên nghiệp năm 2024",
+      "order": 2,
+      "config": {
+        "word_count": 200,
+        "keywords": ["thiết kế website", "xu hướng 2024"],
+        "tone": null,
+        "internal_link": null
+      }
+    },
+    {
+      "id": "h2-2",
+      "level": 2,
+      "title": "Các nguyên tắc thiết kế website hiện đại",
+      "order": 3,
+      "config": null
+    },
+    {
+      "id": "h3-1",
+      "level": 3,
+      "title": "Ứng dụng hệ thống giao diện Material Design 3",
+      "order": 4,
+      "config": {
+        "word_count": 250,
+        "keywords": ["Material Design 3", "Google design system"],
+        "tone": "giải thích chi tiết",
+        "internal_link": "https://example.com/material-design-guide"
+      }
+    },
+    {
+      "id": "h3-2",
+      "level": 3,
+      "title": "Chú trọng UI/UX và cảm xúc người dùng",
+      "order": 5,
+      "config": {
+        "word_count": 180,
+        "keywords": ["UI/UX", "trải nghiệm người dùng"],
+        "tone": null,
+        "internal_link": null
+      }
+    },
+    {
+      "id": "h3-3",
+      "level": 3,
+      "title": "Thiết kế web responsive & tối ưu SEO",
+      "order": 6,
+      "config": {
+        "word_count": 200,
+        "keywords": ["responsive design", "mobile-first", "SEO"],
+        "tone": null,
+        "internal_link": "https://example.com/seo-guide"
+      }
+    },
+    {
+      "id": "h2-3",
+      "level": 2,
+      "title": "Các công cụ và tài nguyên đề xuất",
+      "order": 7,
+      "config": null
+    },
+    {
+      "id": "h2-4",
+      "level": 2,
+      "title": "Kết luận và khuyến nghị cho năm 2024",
+      "order": 8,
+      "config": {
+        "word_count": 150,
+        "keywords": ["thiết kế web 2024"],
+        "tone": "tổng kết",
+        "internal_link": null
+      }
+    }
+  ],
+  "main_keyword": "Thiết kế website",
+  "secondary_keywords": [
+    "web responsive",
+    "UI/UX",
+    "tối ưu SEO"
+  ]
+}
