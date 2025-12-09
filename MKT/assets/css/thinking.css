@@ -1,0 +1,241 @@
+/* thinking.css */
+
+/* Reuse variables from cau-hinh-bai-viet.css if possible, but defining critical ones here for safety */
+:root {
+    --primary-blue: #2563EB;
+    --text-main: #1F2937;
+    --text-sub: #6B7280;
+    --bg-white: #FFFFFF;
+    --border-color: #E5E7EB;
+}
+
+/* Layout overrides */
+.content-area-thinking {
+    flex: 1;
+    background-color: #F8F9FA;
+    /* Light gray bg */
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Page Header */
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.page-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-main);
+}
+
+.step-indicator {
+    font-size: 14px;
+    color: var(--text-sub);
+}
+
+/* Notification Bar */
+.notification-bar {
+    background-color: #EFF6FF;
+    /* Light blue */
+    border: 1px solid #BFDBFE;
+    color: #1E40AF;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+    /* Space before main content */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.notification-icon {
+    font-size: 16px;
+}
+
+/* Central Content */
+.thinking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    /* Take up remaining space */
+    text-align: center;
+}
+
+.thinking-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111827;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+/* Reuse Spinner Styles from previous steps but ensure they render here */
+.spinner-container {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 16px;
+}
+
+.spinner-track {
+    stroke: #E5E7EB;
+    stroke-width: 4;
+    fill: none;
+}
+
+.spinner-circle-thinking {
+    stroke: #2563EB;
+    stroke-width: 4;
+    fill: none;
+    stroke-linecap: round;
+    /* Adjust based on desired segment size */
+    stroke-dasharray: 60 200;
+    animation: spin 1.5s linear infinite;
+    transform-origin: center;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.time-estimate {
+    font-size: 18px;
+    color: #2563EB;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.complexity-level {
+    font-size: 14px;
+    color: #9CA3AF;
+    /* Light gray text */
+    margin-bottom: 60px;
+}
+
+/* Stepper */
+.stepper-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+}
+
+.step-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    min-width: 120px;
+}
+
+.step-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #E5E7EB;
+    background-color: var(--bg-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+}
+
+.step-icon {
+    width: 24px;
+    height: 24px;
+    color: #9CA3AF;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.step-label {
+    font-size: 13px;
+    color: #9CA3AF;
+    text-align: center;
+    max-width: 100px;
+}
+
+/* Connecting Line */
+.step-line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #E5E7EB;
+    margin: 0 10px;
+    transform: translateY(-25px);
+    /* Align with center of circles */
+    z-index: 1;
+}
+
+/* Active State */
+.step-item.active .step-circle {
+    border-color: #2563EB;
+    box-shadow: 0 0 0 4px #DBEAFE;
+    /* Light blue ring */
+}
+
+.step-item.active .step-icon {
+    color: #2563EB;
+}
+
+.step-item.active .step-label {
+    color: #2563EB;
+    font-weight: 600;
+}
+
+/* Completed State */
+.step-item.completed .step-circle {
+    background-color: #2563EB;
+    border-color: #2563EB;
+}
+
+.step-item.completed .step-icon {
+    color: white;
+}
+
+.step-item.completed .step-label {
+    color: #2563EB;
+}
+
+.step-line.completed {
+    background-color: #2563EB;
+}
+
+/* Back Button */
+.back-button-container {
+    padding: 20px;
+}
+
+.btn-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border: 1px solid #E5E7EB;
+    background: white;
+    border-radius: 6px;
+    color: var(--text-sub);
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-back:hover {
+    background: #F3F4F6;
+}
